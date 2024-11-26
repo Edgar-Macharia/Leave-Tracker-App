@@ -37,30 +37,36 @@ cd frontend
 ```
 npm install
 ```
+3. Set up environment variables:
 
-3. Start the development server:
+Create a .env file in the root directory and add the necessary environment variables.
+```
+VITE_BASE_URL=http://localhost:3000
+```
+
+4. Start the development server:
 ```
 npm run dev
 ```
 
-4. Open another Tab on the Terminal
+5. Open another Tab on the Terminal
 ```
 cd backend
 ```
 
-5. Install dependencies
+6. Install dependencies
 ```
 npm install
 ```
 
-6. Set up environment variables:
+7. Set up environment variables:
 
 Create a .env file in the root directory and add the necessary environment variables.
 ```
 MONGODB_URI=your_mongodb_connection_string
 ```
 
-7. Start the development server
+8. Start the development server
 ```
 nodemon server
 ```
