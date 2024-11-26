@@ -1,4 +1,5 @@
 # Leave-Tracker-App
+
 Leave Tracker is a SAAS application designed to simplify leave management for organizations. It provides a user-friendly interface for employees to request leave and for managers to approve or deny those requests. The application is built using modern technologies to ensure performance, scalability, and a seamless user experience.
 
 # Features
@@ -23,48 +24,61 @@ Prerequisites
 - npm (v6 or later)
 - MongoDB
 
-
 # Steps
 
 1. Clone the repository:
+
 ```
-git clone https://github.com/your-repo/leave-tracker.git
-cd leave-tracker
-cd frontend
+	git clone https://github.com/your-repo/leave-tracker.git
+	cd leave-tracker
+	cd frontend
 ```
 
 2. Install dependencies:
+
 ```
-npm install
+	npm install
 ```
 
-3. Start the development server:
-```
-npm run dev
-```
-
-4. Open another Tab on the Terminal
-```
-cd backend
-```
-
-5. Install dependencies
-```
-npm install
-```
-
-6. Set up environment variables:
+3. Set up environment variables:
 
 Create a .env file in the root directory and add the necessary environment variables.
+
 ```
-MONGODB_URI=your_mongodb_connection_string
+	VITE_BASE_URL=http://localhost:3000
 ```
 
-7. Start the development server
+4. Start the development server:
+
 ```
-nodemon server
+	npm run dev
 ```
 
+5. Open another Tab on the Terminal
+
+```
+	cd backend
+```
+
+6. Install dependencies
+
+```
+	npm install
+```
+
+7. Set up environment variables:
+
+    Create a .env file in the root directory and add the necessary environment variables.
+
+```
+	MONGODB_URI=your_mongodb_connection_string
+```
+
+8. Start the development server
+
+```
+	nodemon server
+```
 
 # Usage
 
@@ -80,6 +94,6 @@ Employees can request leave by navigating to the leave request section.
 Approve/Deny Leave:
 Managers can approve or deny leave requests from the dashboard.
 
-
 # License
+
 This project is licensed under the MIT License. See the LICENSE file for more details.
