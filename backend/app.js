@@ -10,10 +10,8 @@ const uploadFileRoutes = require('./routes/uploadFile');
 
 const app = express();
 
-// const uri = "mongodb+srv://vibranium-dev-edit:NBpxOIUy4nI0Htxa@vibranium-wakanda-aws.5sdnk.mongodb.net/leavetrackerdb";
 
-const uri = process.env.MONGODB_URL
-// const uri = "mongodb://mongo-db/leavetrackerdb";
+const uri = process.env.MONGODB_URI
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
