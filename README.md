@@ -2,6 +2,11 @@
 
 Leave Tracker is a SAAS application designed to simplify leave management for organizations. It provides a user-friendly interface for employees to request leave and for managers to approve or deny those requests. The application is built using modern technologies to ensure performance, scalability, and a seamless user experience.
 
+<img width="1435" alt="Screenshot 2024-07-11 at 12 36 30" src="https://github.com/user-attachments/assets/85058500-ecd5-4d40-814a-9244d09edd3c">
+
+<img width="1436" alt="Screenshot 2024-07-11 at 12 37 24" src="https://github.com/user-attachments/assets/1b4bd8f8-5f74-44ba-bb01-8372eda78f19">
+
+
 # Features
 
 - Leave Request Management: Employees can easily request leave through the application.
