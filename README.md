@@ -20,7 +20,9 @@ Leave Tracker is a SAAS application designed to simplify leave management for or
 Frontend: Vite React, Tailwind CSS
 Backend: NodeJS
 Database: MongoDB
+
 Firebase File Storage
+
 Sendgrid Email Service
 
 # Installation
